@@ -5,7 +5,6 @@ attr_accessor
   end
   def add_item(item,price)
     self.total += price
-
   end
 
 
