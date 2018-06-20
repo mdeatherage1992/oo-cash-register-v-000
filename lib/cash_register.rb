@@ -1,9 +1,9 @@
 class CashRegister
-
+attr_accessor
   def initialize
     @total = 0
   end
-  def self.total
+  def total
     @total
   end
 
