@@ -3,8 +3,9 @@ attr_accessor
   def initialize
     @total = 0
   end
-  def total
-    @total
+  def add_item(item,price)
+    self.total += price
+
   end
 
 
