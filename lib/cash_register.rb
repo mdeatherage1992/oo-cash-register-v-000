@@ -7,7 +7,7 @@ attr_accessor :cash_register,:cash_register_with_discount,:total
     @total = 0
   end
 
-  def total(price)
+  def total
     self.total
   end
 
